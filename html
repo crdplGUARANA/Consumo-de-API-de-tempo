@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio com previsão do tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <script src="./script.js" defer></script>
+</head>
+
+    <body background="./imagens/lorenzosolitário.html"   onload="Lorenzo()">
+        <main class='tela-principal'>
+
+            <section class='container'>
+            
+                <h1>Lorenzo Arnold Muller</h1>
+
+                <div id='info'>
+
+                    <div class="especs">
+                        <h4>Cidade:</h4><span id='cidade'></span><h4>Temperatura:</h4>
+                        <div id="graus-celsius"><span id='temp'></span> °C</div> <h4>Humidade:</h4>
+                        <div id="porcentagem">​<span id='humidity'></span> %</div>
+                    </div>
+                    
+                    <div class="dataHora">
+                            
+                        <h3>Data e Hora</h3>
+                        
+                                            
+                        <div id='dataInfo'>
+                            <span id='semana'></span>
+                            <span id='data'></span>
+                        </div>
+                        <div id='relogio'>
+                            
+                            <br><br><span id='h'></span>:<span id='m'></span>:<span id='s'></span>
+                        
+                        </div>
+
+                    </div>
+        
+                </div>
+
+
+            </section>
+        </main>
+    </body>
+</html>
